@@ -1,7 +1,8 @@
 {
-  "name": "client",
+  "name": "calculator-constructor",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://paulbraam.github.io/calculator-constructor",
   "dependencies": {
     "@emotion/css": "^11.5.0",
     "@emotion/react": "^11.7.0",
