@@ -1,0 +1,49 @@
+.droppable-bottom {
+  border-bottom: 1px solid #5d5fef;
+  position: relative;
+}
+
+.droppable-bottom:before,
+.droppable-bottom:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  transform: translateY(2.4px) rotate(45deg);
+  width: 4px;
+  height: 4px;
+  display: inline-block;
+  background: #5d5fef;
+  background-repeat: no-repeat;
+}
+
+.droppable-bottom:before {
+  left: 0px;
+}
+.droppable-bottom:after {
+  right: 0px;
+}
+
+.droppable-top {
+  border-top: 1px solid #5d5fef;
+  position: relative;
+}
+
+.droppable-top:before,
+.droppable-top:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  transform: translateY(-2.4px) rotate(45deg);
+  width: 4px;
+  height: 4px;
+  display: inline-block;
+  background: #5d5fef;
+  background-repeat: no-repeat;
+}
+
+.droppable-top:before {
+  left: 0px;
+}
+.droppable-top:after {
+  right: 0px;
+}
