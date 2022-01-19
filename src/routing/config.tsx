@@ -7,7 +7,7 @@ export const routes = [
     element: <MainLayout />,
     children: [
       {
-        path: '/',
+        path: '/calculator-constructor',
         element: <CalculatorBuilder />
       }
     ]
